@@ -109,6 +109,14 @@ li a:hover:not(.active) {
     margin-top: 60px;
     margin-bottom:60px;
   }
+    .reviewbox{
+    width: 250px;
+    height:310px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #999;
+    margin-left: 522px;
+  }
 </style>
 </head>
 <header>
@@ -123,8 +131,26 @@ li a:hover:not(.active) {
       </ul>
       </nav> 
 </header>
-<body>
-    <h1>Contact us</h1>
+
+    <body>
+    <h1 style="text-align: center; background-color: #999;">Contact us</h1>
+    <hr style="color:black;">
+    <div class="reviewbox">
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="phone">Phone:</label><br>
+      <input type="text" id="phone" name="phone"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="review">Review:</label><br>
+      <input type="text" id="review" name="review"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <br><br>
 
 </body>
 
