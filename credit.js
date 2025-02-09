@@ -1,0 +1,1 @@
+alert("This website is created by Divij Patidar and his wellwisher");
